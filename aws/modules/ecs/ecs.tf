@@ -1,10 +1,10 @@
-module "ecs" {
-  security_group_id = var.security_group_id
-  vpc_id = var.vpc_id
-  public_subnet_list = var.public_subnet_list
-  private_subnet_list = var.private_subnet_list
-  environment  = var.environment
-}
+# module "ecs" {
+#   security_group_id = var.security_group_id
+#   vpc_id = var.vpc_id
+#   public_subnet_list = var.public_subnet_list
+#   private_subnet_list = var.private_subnet_list
+#   environment  = var.environment
+# }
 
 
 resource "aws_ecs_cluster" "my-web-cluster" {

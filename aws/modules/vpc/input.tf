@@ -25,9 +25,9 @@ variable "availability_zones" {
   description = "The az that the resources will be launched"
 }
 
-variable "ecs_task_execution_role_name" {
-  description = "ECS task execution role name"
-}
+# variable "ecs_task_execution_role_name" {
+#   description = "ECS task execution role name"
+# }
 
 
 # variable "public_subnet_list" {

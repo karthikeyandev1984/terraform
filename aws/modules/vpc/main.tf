@@ -30,7 +30,7 @@ resource "aws_internet_gateway" "ig" {
 
 /* Elastic IP for NAT */
 resource "aws_eip" "nat_eip" {
-  vpc        = true
+  domain        = "vpc"
   depends_on = [aws_internet_gateway.ig]
 }
 
